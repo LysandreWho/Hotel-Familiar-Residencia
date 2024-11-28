@@ -9,7 +9,7 @@ const VagasScreen = () => {
   useEffect(() => {
     const fetchVagas = async () => {
       try {
-        const response = await api.get('/vagas'); // Substituir pelo endpoint correto
+        const response = await api.get('/vagas');
         setVagas(response.data);
       } catch (error) {
         console.error('Erro ao buscar vagas:', error);
