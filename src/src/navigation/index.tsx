@@ -1,18 +1,18 @@
 import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import LoginScreen from '../screens/LoginScreen';
 import HomeScreen from '../screens/HomeScreen';
+import VagasScreen from '../screens/VagasScreen';
 import EditProfileScreen from '../screens/EditProfileScreen';
 
-const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
 
 export const AppRoutes = () => (
-  <Stack.Navigator>
-    <Stack.Screen name="Login" component={LoginScreen} />
-    <Stack.Screen name="Home" component={HomeScreen} />
-    <Stack.Screen name="EditProfile" component={EditProfileScreen} />
-  </Stack.Navigator>
+  <Tab.Navigator>
+    <Tab.Screen name="Home" component={HomeScreen} />
+    <Tab.Screen name="Vagas" component={VagasScreen} />
+    <Tab.Screen name="Perfil" component={EditProfileScreen} />
+  </Tab.Navigator>
 );
 
 export default function AppNavigator() {
