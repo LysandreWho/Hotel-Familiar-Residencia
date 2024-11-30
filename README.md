@@ -10,7 +10,7 @@ Login e cadastro de usuários.
 Controle de acesso às funcionalidades mediante autenticação.
 
 Gerenciamento de Vagas:
-Exibição de até 5 quartos com detalhes:
+Exibição de até 5 quartos com detalhes:\n
 Ocupação (sim ou não).
 Valor da estadia.
 Quantidade de camas.
