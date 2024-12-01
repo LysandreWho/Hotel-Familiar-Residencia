@@ -4,6 +4,10 @@ import sequelize from './data.base';
 import vagaRoute from './vaga.route';
 import { Vaga } from './models/Vaga';
 import { Usuario } from './models/Usuario';
+import usuarioRoute from './usuario.route';
+
+app.use('/usuarios', usuarioRoute);
+
 
 const app = express();
 const PORT = 3000;
