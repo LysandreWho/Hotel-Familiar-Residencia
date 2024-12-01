@@ -31,3 +31,11 @@ Navegação:
 Uso de pilhas de autenticação.
 Navegação por abas para acesso às principais telas.
 Exibição de componentes específicos quando não houver vagas.
+
+Instale as dependências necessárias:
+npm install express body-parser sequelize sqlite3
+npm install --save-dev @types/express @types/node
+
+Execute o servidor:
+npx ts-node server.ts
+
