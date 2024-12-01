@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+.env
+
+# Logs
+logs/
+*.log
+
+# Database
+database.sqlite
+
+# Temporary files
+temp/
+*.tmp
